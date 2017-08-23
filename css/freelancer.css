@@ -65,7 +65,8 @@ hr.star-primary:after {
   background-color: white; }
 
 .img-centered {
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 2px solid black}
 
 section {
   padding: 100px 0; }
