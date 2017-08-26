@@ -31,6 +31,7 @@ h6 {
   font-weight: 700;}
 
 hr.star-light,
+hr.star-modal,
 hr.star-primary {
   max-width: 250px;
   margin: 25px auto 30px;
@@ -40,6 +41,7 @@ hr.star-primary {
   border-top: solid 5px; }
 
 hr.star-light:after,
+hr.star-modal:after,
 hr.star-primary:after {
   font-family: FontAwesome;
   font-size: 2em;
@@ -62,6 +64,13 @@ hr.star-primary {
 hr.star-primary:after {
   color: #FE67C0;
   background-color: white; }
+
+hr.star-modal {
+  border-color: #FE67C0; }
+
+hr.star-modal:after {
+  color: #FE67C0;
+  background-color: #ECEBEB; }
 
 .img-centered {
   margin: 0 auto;
@@ -171,7 +180,8 @@ header.masthead {
     display: block;}
   header.masthead .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300; }
+    font-weight: 300;
+    font-family: 'Finger Paint', cursive; }
 
 @media (min-width: 768px) {
   header.masthead .container {
@@ -237,7 +247,8 @@ header.masthead {
   .portfolio-modal .modal-dialog .modal-content {
     padding: 100px 0;
     border: 0;
-    border-radius: 0; }
+    border-radius: 0;
+    background-color: #ECEBEB; }
     .portfolio-modal .modal-dialog .modal-content h2 {
       font-size: 3em;
       margin: 0; }
